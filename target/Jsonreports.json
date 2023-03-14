@@ -1,0 +1,435 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-13T18:01:24.706Z",
+        "before": [
+          {
+            "result": {
+              "duration": 22455611300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Phone Validation scenario in list",
+        "description": "",
+        "id": "flipkart-phones-feature;phone-validation-scenario-in-list",
+        "after": [
+          {
+            "result": {
+              "duration": 671627000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[text()\u003d\u0027âœ•\u0027]\"}\n  (Session info: chrome\u003d110.0.5481.180)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.1.2\u0027, revision: \u00279a5a329c5a\u0027\nSystem info: host: \u0027LAPTOP-C1KGDM9L\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0c45101bb141c8dd5b16ba9043e2f217, findElement {using\u003dxpath, value\u003d//button[text()\u003d\u0027âœ•\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.180, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\HEMU\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53262}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53262/devtoo..., se:cdpVersion: 110.0.5481.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0c45101bb141c8dd5b16ba9043e2f217\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)\r\n\tat com.baseclass.CommonActions.clickElement(CommonActions.java:23)\r\n\tat com.flipkartshopping.PhonesStepDefinition.user_quit_the_buton(PhonesStepDefinition.java:36)\r\n\tat ✽.User quit the buton(file:///C:/Users/HEMU/eclipse-workspace2/FebCucumber/src/test/resources/Flipkart%20Feature/Phones.feature:9)\r\n",
+              "duration": 13297035300,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "User quit the buton",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_quit_the_buton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User enters the mobile name with one dim list",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_enters_the_mobile_name_with_one_dim_list(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Apple iphone",
+                  "OPPO",
+                  "SAMSUNG"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User validates the mobile name",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_validates_the_mobile_name()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-13T18:02:01.423Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13673886700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "TV Validation scenario",
+        "description": "",
+        "id": "flipkart-phones-feature;tv-validation-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 577734200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[text()\u003d\u0027âœ•\u0027]\"}\n  (Session info: chrome\u003d110.0.5481.180)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.1.2\u0027, revision: \u00279a5a329c5a\u0027\nSystem info: host: \u0027LAPTOP-C1KGDM9L\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [cacd3329f741b38ebc04b0dabc095402, findElement {using\u003dxpath, value\u003d//button[text()\u003d\u0027âœ•\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.180, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\HEMU\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53321/devtoo..., se:cdpVersion: 110.0.5481.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: cacd3329f741b38ebc04b0dabc095402\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)\r\n\tat com.baseclass.CommonActions.clickElement(CommonActions.java:23)\r\n\tat com.flipkartshopping.PhonesStepDefinition.user_quit_the_buton(PhonesStepDefinition.java:36)\r\n\tat ✽.User quit the buton(file:///C:/Users/HEMU/eclipse-workspace2/FebCucumber/src/test/resources/Flipkart%20Feature/Phones.feature:16)\r\n",
+              "duration": 13050476600,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "User quit the buton",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_quit_the_buton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2001700,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User enters the TV names with one dim map",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_enters_the_TV_names_with_one_dim_map(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Key",
+                  "value"
+                ]
+              },
+              {
+                "cells": [
+                  "TV1",
+                  "SONY"
+                ]
+              },
+              {
+                "cells": [
+                  "TV2",
+                  "LG"
+                ]
+              },
+              {
+                "cells": [
+                  "TV3",
+                  "SAMSUNG"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User validates the TV name",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_validates_the_tv_name()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-13T18:02:28.779Z",
+        "before": [
+          {
+            "result": {
+              "duration": 19827807700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Outline validation of all Scenarios",
+        "description": "",
+        "id": "flipkart-phones-feature;outline-validation-of-all-scenarios;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 621649900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[text()\u003d\u0027âœ•\u0027]\"}\n  (Session info: chrome\u003d110.0.5481.180)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.1.2\u0027, revision: \u00279a5a329c5a\u0027\nSystem info: host: \u0027LAPTOP-C1KGDM9L\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5626667e44c8d974a0e5476b05fefdc1, findElement {using\u003dxpath, value\u003d//button[text()\u003d\u0027âœ•\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.180, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\HEMU\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53372}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53372/devtoo..., se:cdpVersion: 110.0.5481.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5626667e44c8d974a0e5476b05fefdc1\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)\r\n\tat com.baseclass.CommonActions.clickElement(CommonActions.java:23)\r\n\tat com.flipkartshopping.PhonesStepDefinition.user_quit_the_buton(PhonesStepDefinition.java:36)\r\n\tat ✽.User quit the buton(file:///C:/Users/HEMU/eclipse-workspace2/FebCucumber/src/test/resources/Flipkart%20Feature/Phones.feature:26)\r\n",
+              "duration": 13079022700,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "User quit the buton",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_quit_the_buton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000900,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User enters the phone names in Scenario Outline \"Apple iphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple iphone\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_enters_the_phone_names_in_scenario_outline(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996300,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User validates the phone name in Scenario Outline",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_validates_the_phone_name_in_scenario_outline()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-13T18:03:02.334Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6669703100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Outline validation of all Scenarios",
+        "description": "",
+        "id": "flipkart-phones-feature;outline-validation-of-all-scenarios;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 599968400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[text()\u003d\u0027âœ•\u0027]\"}\n  (Session info: chrome\u003d110.0.5481.180)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.1.2\u0027, revision: \u00279a5a329c5a\u0027\nSystem info: host: \u0027LAPTOP-C1KGDM9L\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [13fa82a0ff0699150cb503431ee0adf4, findElement {using\u003dxpath, value\u003d//button[text()\u003d\u0027âœ•\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.180, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\HEMU\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53434}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53434/devtoo..., se:cdpVersion: 110.0.5481.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 13fa82a0ff0699150cb503431ee0adf4\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)\r\n\tat com.baseclass.CommonActions.clickElement(CommonActions.java:23)\r\n\tat com.flipkartshopping.PhonesStepDefinition.user_quit_the_buton(PhonesStepDefinition.java:36)\r\n\tat ✽.User quit the buton(file:///C:/Users/HEMU/eclipse-workspace2/FebCucumber/src/test/resources/Flipkart%20Feature/Phones.feature:26)\r\n",
+              "duration": 13081934100,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "User quit the buton",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_quit_the_buton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User enters the phone names in Scenario Outline \"OPPO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OPPO\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_enters_the_phone_names_in_scenario_outline(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User validates the phone name in Scenario Outline",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_validates_the_phone_name_in_scenario_outline()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-13T18:03:22.758Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8236232600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Outline validation of all Scenarios",
+        "description": "",
+        "id": "flipkart-phones-feature;outline-validation-of-all-scenarios;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 655726800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[text()\u003d\u0027âœ•\u0027]\"}\n  (Session info: chrome\u003d110.0.5481.180)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.1.2\u0027, revision: \u00279a5a329c5a\u0027\nSystem info: host: \u0027LAPTOP-C1KGDM9L\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5b5a237e428fe440a8b6c8e2299ff84d, findElement {using\u003dxpath, value\u003d//button[text()\u003d\u0027âœ•\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.180, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\HEMU\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53487}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53487/devtoo..., se:cdpVersion: 110.0.5481.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5b5a237e428fe440a8b6c8e2299ff84d\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)\r\n\tat com.baseclass.CommonActions.clickElement(CommonActions.java:23)\r\n\tat com.flipkartshopping.PhonesStepDefinition.user_quit_the_buton(PhonesStepDefinition.java:36)\r\n\tat ✽.User quit the buton(file:///C:/Users/HEMU/eclipse-workspace2/FebCucumber/src/test/resources/Flipkart%20Feature/Phones.feature:26)\r\n",
+              "duration": 13053678700,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "User quit the buton",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_quit_the_buton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User enters the phone names in Scenario Outline \"SAMSUNG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SAMSUNG\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_enters_the_phone_names_in_scenario_outline(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 979600,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User validates the phone name in Scenario Outline",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_validates_the_phone_name_in_scenario_outline()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Flipkart phones feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "flipkart-phones-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Flipkart%20Feature/Phones.feature",
+    "tags": []
+  }
+]
