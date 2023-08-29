@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: com.flipkartshopping.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 23.45 s <<< FAILURE! - in com.flipkartshopping.TestRunner
+Phone Validation scenario in list(Flipkart phones feature)  Time elapsed: 6.566 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 109
+Current browser version is 111.0.5563.65 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-C1KGDM9L', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+
+Phone Validation scenario in list(Flipkart phones feature)  Time elapsed: 6.569 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "com.baseclass.CommonActions.Driver" is null
+
+TV Validation scenario(Flipkart phones feature)  Time elapsed: 3.334 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 109
+Current browser version is 111.0.5563.65 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-C1KGDM9L', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+
+TV Validation scenario(Flipkart phones feature)  Time elapsed: 3.335 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "com.baseclass.CommonActions.Driver" is null
+
+Outline validation of all Scenarios #1(Flipkart phones feature)  Time elapsed: 3.763 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 109
+Current browser version is 111.0.5563.65 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-C1KGDM9L', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+
+Outline validation of all Scenarios #1(Flipkart phones feature)  Time elapsed: 3.765 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "com.baseclass.CommonActions.Driver" is null
+
+Outline validation of all Scenarios #2(Flipkart phones feature)  Time elapsed: 4.145 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 109
+Current browser version is 111.0.5563.65 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-C1KGDM9L', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+
+Outline validation of all Scenarios #2(Flipkart phones feature)  Time elapsed: 4.148 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "com.baseclass.CommonActions.Driver" is null
+
+Outline validation of all Scenarios #3(Flipkart phones feature)  Time elapsed: 4.063 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 109
+Current browser version is 111.0.5563.65 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-C1KGDM9L', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+
+Outline validation of all Scenarios #3(Flipkart phones feature)  Time elapsed: 4.064 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "com.baseclass.CommonActions.Driver" is null
+

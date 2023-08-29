@@ -1,0 +1,432 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-17T19:35:34.670Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 109\nCurrent browser version is 111.0.5563.65 with binary path C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00274.1.2\u0027, revision: \u00279a5a329c5a\u0027\nSystem info: host: \u0027LAPTOP-C1KGDM9L\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities\u003d[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities\u003dCapabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:161)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:108)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:106)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:93)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:48)\r\n\tat com.baseclass.CommonActions.launch(CommonActions.java:17)\r\n\tat com.flipkartshopping.Hooks.beforeScenario(Hooks.java:14)\r\n",
+              "duration": 6112867000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Phone Validation scenario in list",
+        "description": "",
+        "id": "flipkart-phones-feature;phone-validation-scenario-in-list",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"com.baseclass.CommonActions.Driver\" is null\r\n\tat com.baseclass.CommonActions.quitBrowser(CommonActions.java:32)\r\n\tat com.flipkartshopping.Hooks.afterScenario(Hooks.java:21)\r\n",
+              "duration": 1001700,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000300,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User quit the buton",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_quit_the_buton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User enters the mobile name with one dim list",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_enters_the_mobile_name_with_one_dim_list(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Apple iphone",
+                  "OPPO",
+                  "SAMSUNG"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User validates the mobile name",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_validates_the_mobile_name()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-17T19:35:40.983Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 109\nCurrent browser version is 111.0.5563.65 with binary path C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00274.1.2\u0027, revision: \u00279a5a329c5a\u0027\nSystem info: host: \u0027LAPTOP-C1KGDM9L\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities\u003d[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities\u003dCapabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:161)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:108)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:106)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:93)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:48)\r\n\tat com.baseclass.CommonActions.launch(CommonActions.java:17)\r\n\tat com.flipkartshopping.Hooks.beforeScenario(Hooks.java:14)\r\n",
+              "duration": 3298539600,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "TV Validation scenario",
+        "description": "",
+        "id": "flipkart-phones-feature;tv-validation-scenario",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"com.baseclass.CommonActions.Driver\" is null\r\n\tat com.baseclass.CommonActions.quitBrowser(CommonActions.java:32)\r\n\tat com.flipkartshopping.Hooks.afterScenario(Hooks.java:21)\r\n",
+              "duration": 1503400,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User quit the buton",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_quit_the_buton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2018800,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User enters the TV names with one dim map",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_enters_the_TV_names_with_one_dim_map(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Key",
+                  "value"
+                ]
+              },
+              {
+                "cells": [
+                  "TV1",
+                  "SONY"
+                ]
+              },
+              {
+                "cells": [
+                  "TV2",
+                  "LG"
+                ]
+              },
+              {
+                "cells": [
+                  "TV3",
+                  "SAMSUNG"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User validates the TV name",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_validates_the_tv_name()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-17T19:35:44.336Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 109\nCurrent browser version is 111.0.5563.65 with binary path C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00274.1.2\u0027, revision: \u00279a5a329c5a\u0027\nSystem info: host: \u0027LAPTOP-C1KGDM9L\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities\u003d[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities\u003dCapabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:161)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:108)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:106)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:93)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:48)\r\n\tat com.baseclass.CommonActions.launch(CommonActions.java:17)\r\n\tat com.flipkartshopping.Hooks.beforeScenario(Hooks.java:14)\r\n",
+              "duration": 3718274300,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Outline validation of all Scenarios",
+        "description": "",
+        "id": "flipkart-phones-feature;outline-validation-of-all-scenarios;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"com.baseclass.CommonActions.Driver\" is null\r\n\tat com.baseclass.CommonActions.quitBrowser(CommonActions.java:32)\r\n\tat com.flipkartshopping.Hooks.afterScenario(Hooks.java:21)\r\n",
+              "duration": 4000800,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User quit the buton",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_quit_the_buton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User enters the phone names in Scenario Outline \"Apple iphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple iphone\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_enters_the_phone_names_in_scenario_outline(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User validates the phone name in Scenario Outline",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_validates_the_phone_name_in_scenario_outline()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-17T19:35:48.112Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 109\nCurrent browser version is 111.0.5563.65 with binary path C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00274.1.2\u0027, revision: \u00279a5a329c5a\u0027\nSystem info: host: \u0027LAPTOP-C1KGDM9L\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities\u003d[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities\u003dCapabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:161)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:108)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:106)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:93)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:48)\r\n\tat com.baseclass.CommonActions.launch(CommonActions.java:17)\r\n\tat com.flipkartshopping.Hooks.beforeScenario(Hooks.java:14)\r\n",
+              "duration": 4098849100,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Outline validation of all Scenarios",
+        "description": "",
+        "id": "flipkart-phones-feature;outline-validation-of-all-scenarios;;3",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"com.baseclass.CommonActions.Driver\" is null\r\n\tat com.baseclass.CommonActions.quitBrowser(CommonActions.java:32)\r\n\tat com.flipkartshopping.Hooks.afterScenario(Hooks.java:21)\r\n",
+              "duration": 997700,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 999500,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User quit the buton",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_quit_the_buton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User enters the phone names in Scenario Outline \"OPPO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OPPO\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_enters_the_phone_names_in_scenario_outline(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User validates the phone name in Scenario Outline",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_validates_the_phone_name_in_scenario_outline()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-17T19:35:52.234Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 109\nCurrent browser version is 111.0.5563.65 with binary path C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00274.1.2\u0027, revision: \u00279a5a329c5a\u0027\nSystem info: host: \u0027LAPTOP-C1KGDM9L\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities\u003d[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities\u003dCapabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:161)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:108)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:106)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:93)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:48)\r\n\tat com.baseclass.CommonActions.launch(CommonActions.java:17)\r\n\tat com.flipkartshopping.Hooks.beforeScenario(Hooks.java:14)\r\n",
+              "duration": 4036674500,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Outline validation of all Scenarios",
+        "description": "",
+        "id": "flipkart-phones-feature;outline-validation-of-all-scenarios;;4",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"com.baseclass.CommonActions.Driver\" is null\r\n\tat com.baseclass.CommonActions.quitBrowser(CommonActions.java:32)\r\n\tat com.flipkartshopping.Hooks.afterScenario(Hooks.java:21)\r\n",
+              "duration": 4001400,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.flipkartshopping.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1001800,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User quit the buton",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_quit_the_buton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User enters the phone names in Scenario Outline \"SAMSUNG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SAMSUNG\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_enters_the_phone_names_in_scenario_outline(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001100,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User validates the phone name in Scenario Outline",
+            "match": {
+              "location": "com.flipkartshopping.PhonesStepDefinition.user_validates_the_phone_name_in_scenario_outline()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Flipkart phones feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "flipkart-phones-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Flipkart%20Feature/Phones.feature",
+    "tags": []
+  }
+]
