@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Built-By: HEMU
-Build-Jdk: 17.0.2
+Java-Version: 8
+Build-Jdk-Spec: 21
 Created-By: Maven Integration for Eclipse
 
